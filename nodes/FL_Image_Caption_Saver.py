@@ -5,7 +5,7 @@ import numpy as np
 
 from comfy.utils import ProgressBar
 
-class FL_ImageCaptionSaver:
+class FL_ImageCaptionSaverABC:
     @classmethod
     def INPUT_TYPES(cls):
         return {
