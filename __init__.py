@@ -1,5 +1,5 @@
 from .nodes.FL_Image_Randomizer import FL_ImageRandomizer
-from .nodes.FL_Image_Caption_Saver import FL_ImageCaptionSaver
+from .nodes.FL_Image_Caption_Saver import FL_ImageCaptionSaverABC
 from .nodes.FL_Image_Dimension_Display import FL_ImageDimensionDisplay
 from .nodes.FL_Code_Node import FL_CodeNode
 from .nodes.FL_Image_Pixelator import FL_ImagePixelator
@@ -75,7 +75,7 @@ from .nodes.FL_ImageAdjuster import FL_ImageAdjuster
 
 NODE_CLASS_MAPPINGS = {
     "FL_ImageRandomizer": FL_ImageRandomizer,
-    "FL_ImageCaptionSaver": FL_ImageCaptionSaver,
+    "FL_ImageCaptionSaverABC": FL_ImageCaptionSaverABC,
     "FL_ImageDimensionDisplay": FL_ImageDimensionDisplay,
     "FL_CodeNode": FL_CodeNode,
     "FL_ImagePixelator": FL_ImagePixelator,
@@ -150,7 +150,7 @@ NODE_CLASS_MAPPINGS = {
 
 NODE_DISPLAY_NAME_MAPPINGS = {
     "FL_ImageRandomizer": "FL Image Randomizer",
-    "FL_ImageCaptionSaver": "FL Image Caption Saver",
+    "FL_ImageCaptionSaverABC": "FL Image Caption Saver",
     "FL_ImageDimensionDisplay": "FL Image Size",
     "FL_CodeNode": "FL Code Node",
     "FL_ImagePixelator": "FL Image Pixelator",
